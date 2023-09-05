@@ -56,7 +56,6 @@ X_train, X_test, Y_train, Y_test = train_test_split(features, target,
                                                    random_state= 24
                                                    )
 
-
 print(X_train.shape,
       Y_train.shape,
       X_test.shape,
